@@ -1,0 +1,165 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+
+@theme {
+    --font-Poppins:"Poppins", sans-serif;
+    --font-Lato:"Lato";
+     --color-primary: #fff;
+  --color-secondary: #000;
+}
+/* 
+@font-face {
+  font-family:Poppins ;
+  src: url('Poppins-Regular.woff2') format("woff2");
+} */
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/Fonts/Lato-Black.eot');
+    src: url('./assets/Fonts/Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('./assets/Fonts/Lato-Black.woff2') format('woff2'),
+        url('./assets/Fonts/Lato-Black.woff') format('woff'),
+        url('./assets/Fonts/Lato-Black.ttf') format('truetype'),
+        url('./assets/Fonts/Lato-Black.svg#Lato-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/Fonts/Lato-Bold.eot');
+    src: url('./assets/Fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/Fonts/Lato-Bold.woff2') format('woff2'),
+        url('./assets/Fonts/Lato-Bold.woff') format('woff'),
+        url('./assets/Fonts/Lato-Bold.ttf') format('truetype'),
+        url('./assets/Fonts/Lato-Bold.svg#Lato-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/Fonts/Lato-BlackItalic.eot');
+    src: url('./assets/Fonts/Lato-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/Fonts/Lato-BlackItalic.woff2') format('woff2'),
+        url('./assets/Fonts/Lato-BlackItalic.woff') format('woff'),
+        url('./assets/Fonts/Lato-BlackItalic.ttf') format('truetype'),
+        url('./assets/Fonts/Lato-BlackItalic.svg#Lato-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/Fonts/Lato-BoldItalic.eot');
+    src: url('./assets/Fonts/Lato-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/Fonts/Lato-BoldItalic.woff2') format('woff2'),
+        url('./assets/Fonts/Lato-BoldItalic.woff') format('woff'),
+        url('./assets/Fonts/Lato-BoldItalic.ttf') format('truetype'),
+        url('./assets/Fonts/Lato-BoldItalic.svg#Lato-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/Fonts/Lato-Light.eot');
+    src: url('./assets/Fonts/Lato-Light.eot?#iefix') format('embedded-opentype'),
+        url('./assets/Fonts/Lato-Light.woff2') format('woff2'),
+        url('./assets/Fonts/Lato-Light.woff') format('woff'),
+        url('./assets/Fonts/Lato-Light.ttf') format('truetype'),
+        url('./assets/Fonts/Lato-Light.svg#Lato-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/Fonts/Lato-Italic.eot');
+    src: url('./assets/Fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/Fonts/Lato-Italic.woff2') format('woff2'),
+        url('./assets/Fonts/Lato-Italic.woff') format('woff'),
+        url('./assets/Fonts/Lato-Italic.ttf') format('truetype'),
+        url('./assets/Fonts/Lato-Italic.svg#Lato-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/Fonts/Lato-LightItalic.eot');
+    src: url('./assets/Fonts/Lato-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/Fonts/Lato-LightItalic.woff2') format('woff2'),
+        url('./assets/Fonts/Lato-LightItalic.woff') format('woff'),
+        url('./assets/Fonts/Lato-LightItalic.ttf') format('truetype'),
+        url('./assets/Fonts/Lato-LightItalic.svg#Lato-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/Fonts/Lato-Regular.eot');
+    src: url('./assets/Fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/Fonts/Lato-Regular.woff2') format('woff2'),
+        url('./assets/Fonts/Lato-Regular.woff') format('woff'),
+        url('./assets/Fonts/Lato-Regular.ttf') format('truetype'),
+        url('./assets/Fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('./assets/Fonts/Lato-Hairline.eot');
+    src: url('./assets/Fonts/Lato-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('./assets/Fonts/Lato-Hairline.woff2') format('woff2'),
+        url('./assets/Fonts/Lato-Hairline.woff') format('woff'),
+        url('./assets/Fonts/Lato-Hairline.ttf') format('truetype'),
+        url('./assets/Fonts/Lato-Hairline.svg#Lato-Hairline') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('./assets/Fonts/Lato-HairlineItalic.eot');
+    src: url('./assets/Fonts/Lato-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/Fonts/Lato-HairlineItalic.woff2') format('woff2'),
+        url('./assets/Fonts/Lato-HairlineItalic.woff') format('woff'),
+        url('./assets/Fonts/Lato-HairlineItalic.ttf') format('truetype'),
+        url('./assets/Fonts/Lato-HairlineItalic.svg#Lato-HairlineItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+@keyframes round {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.animation_info {
+
+  animation:  round linear 10s infinite ;
+}
