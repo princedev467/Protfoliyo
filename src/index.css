@@ -11,6 +11,11 @@
     --font-Lato:"Lato";
      --color-primary: #fff;
   --color-secondary: #000;
+  --color-gray:#445964;
+  --color-bgTheme:#E5E5E5;
+  --color-light_bg:#F9FAFB;
+  --color-light_primary:#111827;
+  --color-light_secondary:#4B5563;
 }
 /* 
 @font-face {
@@ -163,3 +168,16 @@
 
   animation:  round linear 10s infinite ;
 }
+
+@keyframes moveline {
+ from{
+    transform: translateX(-100%);
+ }
+ to{
+    transform:  translatex(100%);
+ }
+}
+.profile_animation {
+    animation: moveline linear 10s infinite;
+}
+

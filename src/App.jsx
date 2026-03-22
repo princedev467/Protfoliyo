@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { ThemeProvider } from './context/theme.context';
 import { Route, Routes } from 'react-router-dom';
 import UserRouts from './Routes/UserRouts';
