@@ -91,7 +91,7 @@ function Home(props) {
         
           src={Profile}
           alt=""
-          className="rounded-2xl shadow-lg w-[400px]  mx-auto  hover:border-2 text-green-300"
+          className="rounded-2xl shadow-lg w-['400px']  mx-auto  hover:border-2 text-green-300"
         />
         
       
