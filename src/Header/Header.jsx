@@ -27,7 +27,7 @@ function Header(props) {
     
     return (
         <header>
-            <div className="container mx-auto py-7 flex justify-between " >
+            <div className="container mx-auto px-4 py-5 flex justify-between items-center " >
                 <div className="flex space-x-10 items-center">
                     {/* image */}
                     <a href="#">

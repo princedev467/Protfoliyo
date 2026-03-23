@@ -11,7 +11,7 @@ function UserRouts(props) {
       console.log(themeData);
 
     return (
-        <div className={`${themeData.theme}      dark:bg-gradient-to-r from-green-950 to-black  font-Lato text-light_primary`}>
+        <div className={`${themeData.theme} dark:bg-gradient-to-r from-green-950 to-black  font-Lato text-light_primary`}>
             <Header />
             <Routes>
                 <Route path='/' element={<Home />} ></Route>
