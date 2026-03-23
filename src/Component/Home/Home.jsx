@@ -38,7 +38,7 @@ function Home() {
     <main>
 
       {/* hero Section */}
-      <section className="grid md:grid-cols-2 px-4 sm:px-6 md:px-12 py-12 md:py-10 gap-10 items-center">
+      <section className="grid md:grid-cols-2 px-4 sm:px-6 md:px-12 py-12 md:py-12 gap-10 items-center">
 
         {/* Left */}
         <div className='mt-0 p-2'>
@@ -60,13 +60,13 @@ function Home() {
 
          <div className="flex gap-5 mt-6 text-xl text-gray-400 dark:text-green-400">
             <a href="github.com/princedev467" className="hover:scale-110 transition">
-              <IoLogoGithub  className='text-black sm:text-sm md:text-md text-3xl dark:text-white'/>
+              <IoLogoGithub  className='text-black xs:text-sm text-2xl dark:text-white'/>
             </a>
             <a href="#" className="hover:scale-110 transition">
-              <FaLinkedin  className='text-blue-800 text-3xl sm:text-sm md:text-md dark:text-blue-500'/>
+              <FaLinkedin  className='text-blue-800 text-2xl xs:text-sm  dark:text-blue-500'/>
             </a>
             <a href="#" className="hover:scale-110 transition">
-              <CgMail className='text-yellow-700 text-3xl sm:text-sm md:text-md dark:text-amber-100' />
+              <CgMail className='text-yellow-700 text-2xl xs:text-sm dark:text-amber-100' />
             </a>
           </div>
         
@@ -77,15 +77,15 @@ function Home() {
           <img
             src={Profile}
             alt="profile"
-            className="w-[220px] sm:w-[280px] md:w-[350px] lg:w-[420px] md:mt-7 rounded-2xl shadow-lg hover:scale-105 transition duration-100"
+            className="w-[220px] sm:w-[280px] md:w-[350px] lg:w-[420px] md:mt-4 rounded-2xl shadow-lg hover:scale-105 transition duration-100"
           />
         </div>
 
       </section>
 
-<hr  className=' container w-250 mx-auto dark:text-green-700'/>
+<hr  className=' container w-300 mx-auto dark:text-green-700  px-10'/>
       {/* skill Section */}
-      <section className="dark:text-white py-10 md:py-15 px-4 sm:px-6 md:px-20">
+      <section className="dark:text-white py-10 md:py-7 px-4 sm:px-6 md:px-20">
 
       
         <div className="text-center mb-10 md:mb-16">
