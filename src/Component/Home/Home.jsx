@@ -42,7 +42,7 @@ function Home(props) {
     ]
     return (
         <main >
-           <section className="grid md:grid-cols-2 gap-10 px-10 py-16 items-center ">
+           <section className="grid md:grid-cols-2 gap-10 px-8 py-16 items-center ">
       
         {/* left-side */}
          <div>
@@ -64,7 +64,7 @@ function Home(props) {
         </button>
 
       
-        <div className="flex gap-10 mt-10 text-center">
+        <div className="flex gap-10 mt-10 text-center  dark:text-green-400">
           <div>
             <h2 className="text-neon text-2xl font-bold">3+</h2>
             <p className="text-gray-400 text-sm">Years Experience</p>
@@ -91,7 +91,7 @@ function Home(props) {
         
           src={Profile}
           alt=""
-          className="rounded-2xl shadow-lg w-['400px']  mx-auto  hover:border-2 text-green-300"
+          className="rounded-2xl shadow-lg w-[400px]  mx-auto cursor-pointer hover:border-2 text-green-300"
         />
         
       
@@ -100,12 +100,12 @@ function Home(props) {
 
 {/* skill section */}
     <section>
-         <div className="dark:bg-black dark:text-white py-20 px-6 md:px-20">
+         <div className=" dark:text-white py-20 px-6 md:px-20">
       
       {/* Heading */}
       <div className="text-center mb-16">
         <span className="inline-block px-4 py-1 rounded-full dark:bg-green-900 dark:text-green-400 text-sm">
-          ✨ My Expertise
+          My Expertise
         </span>
 
         <h2 className="text-4xl md:text-5xl font-bold mt-4">
@@ -118,7 +118,7 @@ function Home(props) {
       </div>
 
       {/* Cards */}
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-3 gap-8 cursor-pointer">
         {skillsData.map((section, index) => (
           <div
             key={index}
@@ -142,8 +142,7 @@ function Home(props) {
                 {/* Progress Bar */}
                 <div className="w-full dark:bg-gray-800 h-2 rounded-full">
                   <div
-                    className="h-2 rounded-full bg-gradient-to-r from-green-400 to-green-600"
-                    style={{ width: `${skill.level}%` }}
+                    className={`h-2 rounded-full bg-gradient-to-r from-green-400 to-green-600 { width: ${skill.level}% }` }
                   ></div>
                 </div>
 
