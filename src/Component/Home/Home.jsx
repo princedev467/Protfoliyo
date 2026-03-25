@@ -46,7 +46,7 @@ function Home() {
             Frontend Developer & Backend Developer
           </span>
 
-          <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 md:mt-5 leading-tight dark:text-green-500">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl  text-green-900 font-bold mt-4 md:mt-5 leading-tight dark:text-green-500">
             Full Stack Developer Portfolio
           </h1>
 

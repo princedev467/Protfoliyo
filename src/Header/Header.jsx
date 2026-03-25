@@ -35,7 +35,7 @@ function Header(props) {
                     </a>
                     {/* navBar */}
                     <nav>
-                        <ul className=' hidden lg:flex items-center space-x-6 font-semibold text-26 dark:text-green-400'>{
+                        <ul className=' hidden lg:flex items-center space-x-6 font-semibold text-26'>{
                             MenuItems.map((v) => (
                                 <li><a href={v.link}>{v.Label}</a></li>
                             ))
@@ -45,9 +45,9 @@ function Header(props) {
 
                 <div className='flex items-center space-x-4'>
                         <button className='text-2xl' onClick={()=>bgTheme.ToggleTheme(bgTheme.theme)} >
-                           { bgTheme.theme==='light'?<FaRegMoon  /> :<LuSun className='text-green-400'/>}
+                           { bgTheme.theme==='light'?<FaRegMoon  /> :<LuSun />}
                         </button>
-                        <a href="#" className='hidden lg:inline-block px-6 py-2 bg-black font-semibold dark:bg-green-400 dark:text-black text-white rounded-4xl'>Let's Talk</a>
+                        <a href="#" className='hidden lg:inline-block px-6 py-2 bg-black font-semibold dark:bg-primary dark:text-gary-900  dark:text-black text-white rounded-4xl'>Let's Talk</a>
 
                          <button className='inline-block lg:hidden  text-2xl' onClick={()=>setMenu(!menu)}>
                            <RiMenu5Line />
@@ -62,7 +62,7 @@ function Header(props) {
 
                            {/* navBar */}
                     <nav>
-                        <ul className=' text-lg  my-5 '>{
+                        <ul className=' text-lg  my-5 dark:text-gary-900'>{
                             MenuItems.map((v) => (
                                 <li><a href={v.link}>{v.Label}</a></li>
                             ))

@@ -7,16 +7,20 @@
 
 
 @theme {
---font-Poppins:"Poppins", sans-serif;
---font-Lato:"Lato";
- --color-primary: #fff;
-  --color-secondary: #000;
-  --color-gray:#445964;
-  --color-bgTheme:#E5E5E5;
-  --color-light_bg:#F9FAFB;
-  --color-light_primary:#111827;
-  --color-light_secondary:#4B5563;
+    --font-Poppins: "Poppins", sans-serif;
+    --font-Lato: "Lato";
+    --color-primary: #14b8a6;
+    --color-accent:#facc15;
+    --color-darkBg: #0b1215;
+    --color-cardDark: #111827;
+    --color-secondary: #000;
+    --color-gray: #445964;
+    --color-bgTheme: #E5E5E5;
+    --color-light_bg: #F9FAFB;
+    --color-light_primary: #111827;
+    --color-light_secondary: #4B5563;
 }
+
 /* 
 @font-face {
   font-family:Poppins ;
@@ -156,28 +160,30 @@
 
 
 @keyframes round {
-  from{
-    transform: rotate(0deg);
-  }
-  to{
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .animation_info {
 
-  animation:  round linear 10s infinite ;
+    animation: round linear 10s infinite;
 }
 
 @keyframes moveline {
- from{
-    transform: translateX(-100%);
- }
- to{
-    transform:  translatex(100%);
- }
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translatex(100%);
+    }
 }
+
 .profile_animation {
     animation: moveline linear 10s infinite;
 }
-
