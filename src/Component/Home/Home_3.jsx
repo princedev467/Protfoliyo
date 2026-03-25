@@ -59,10 +59,10 @@ function Home_3(props) {
                     </div>
 
                     <div className="mt-6 flex gap-4">
-                        <button className="bg-primary text-white px-6 py-2 rounded-lg">
+                        <button className="bg-primary text-white px-6 py-2 rounded-lg hover:cursor-pointer">
                             Contact Me
                         </button>
-                        <button className="border px-6 py-2 rounded-lg">
+                        <button className="border px-6 py-2 rounded-lg hover:cursor-pointer ">
                             Download CV
                         </button>
                     </div>
