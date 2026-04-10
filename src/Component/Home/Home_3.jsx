@@ -44,27 +44,29 @@ function Home_3(props) {
                     </p>
 
                     <div className='flex mt-3 text-sm text-gray-500 space-x-3'>
-                        <p className="hover:dark:text-amber-50  hover:text-primary">
+                        <span className="hover:dark:text-amber-50  hover:text-primary">
                             MongoDB
-                        </p>
-                        <p className="hover:dark:text-amber-50  hover:text-primary">
+                        </span>
+                        <span className="hover:dark:text-amber-50  hover:text-primary">
                             • Express
-                        </p>
-                        <p className="hover:dark:text-amber-50  hover:text-primary">
+                        </span>
+                        <span className="hover:dark:text-amber-50  hover:text-primary">
                             • React
-                        </p>
-                        <p className="hover:dark:text-amber-50  hover:text-primary">
+                        </span>
+                        <span className="hover:dark:text-amber-50  hover:text-primary">
                             • Node
-                        </p>
+                        </span>
                     </div>
 
                     <div className="mt-6 flex gap-4">
                         <button className="bg-primary text-white px-6 py-2 rounded-lg hover:cursor-pointer">
                             Contact Me
                         </button>
-                        <button className="border px-6 py-2 rounded-lg hover:cursor-pointer " onClick={cv}>
+                        <a href={cv} download>
+                        <button className="border px-6 py-2 rounded-lg hover:cursor-pointer ">
                             Download CV
                         </button>
+                        </a>
                     </div>
                     {/* STATS */}
                     <div className="mt-8 flex gap-8">
@@ -86,73 +88,73 @@ function Home_3(props) {
                 {/* RIGHT IMAGE */}
                 <div
 
-                    className="relative md:w-[380px] md:h-[370px] sm:w-[220px] sm:h-[320px] mx-auto overflow-hidden shadow-lg rounded-full items-center"
+                    className="relative  xs:h-[10px] xs:h-[10px] md:w-[380px] md:h-[380px] mx-auto overflow-hidden shadow-lg rounded-full items-center"
                 >
-                {/* <div className=" inset-0  border-2  bg-cyan-100  rounded-full"></div> */}
-                <div className="absolute inset-0   dark:bg-teal-700 bg-gray-600  blur-2xl scale-120 "></div>
+                    {/* <div className=" inset-0  border-2  bg-cyan-100  rounded-full"></div> */}
+                    <div className="absolute inset-0  dark:bg-teal-700 bg-gray-600  blur-2xl scale-120 "></div>
 
                     <img
                         src={Profile}
-                        className="relative w-75 rounded-xl dark:shadow-3xl mx-auto"
+                        className="relative xs:w-40  md:w-50 lg:w-75 rounded-xl dark:shadow-3xl mx-auto"
                     />
                 </div>
-               </section>
-                    <section className="py-20 px-6 md:px-16 bg-gray-50 dark:bg-[#0b1215] transition">
+            </section>
+            <section className="py-20 px-6 md:px-16 bg-gray-50 dark:bg-[#0b1215] transition">
 
-                        {/* TITLE */}
-                        <div className="text-center mb-14">
-                            <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                                My Skills
-                            </h2>
-                            <p className="text-gray-500 dark:text-gray-400 mt-2">
-                                Technologies I work with
-                            </p>
-                        </div>
+                {/* TITLE */}
+                <div className="text-center mb-14">
+                    <h2 className="text-3xl md:text-4xl font-bold text-primary">
+                        My Skills
+                    </h2>
+                    <p className="text-gray-500 dark:text-gray-400 mt-2">
+                        Technologies I work with
+                    </p>
+                </div>
 
-                        {/* GRID */}
-                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+                {/* GRID */}
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
 
-                            {skills.map((v, i) => {
-                               
-                                return (
-                                    <div
-                                        key={i}
-                                        initial={{ opacity: 0, y: 20 }}
-                                        whileInView={{ opacity: 1, y: 0 }}
-                                        whileHover={{ y: -8, scale: 1.05 }}
-                                        transition={{ duration: 0.3 }}
-                                        className="
+                    {skills.map((v, i) => {
+
+                        return (
+                            <div
+                                key={i}
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                whileHover={{ y: -8, scale: 1.05 }}
+                                transition={{ duration: 0.3 }}
+                                className="
               group p-6 rounded-2xl text-center cursor-pointer
               bg-white dark:bg-[#111827]
               shadow-sm hover:shadow-lg
               dark:border dark:border-gray-700
               transition duration-300
               "
-                                    >
-                                        {/* ICON */}
-                                        <div className="
+                            >
+                                {/* ICON */}
+                                <div className="
                 flex justify-center mb-4 
                
                 group-hover:scale-110 
                 transition
               ">{
-                                                v.icon
-                                            }
-                                            {/* <Icon size={32} /> */}
-                                        </div>
+                                        v.icon
+                                    }
+                                    {/* <Icon size={32} /> */}
+                                </div>
 
-                                        {/* NAME */}
-                                        <h3 className="font-semibold text-sm md:text-base text-primary">
-                                            {v.name}
-                                        </h3>
-                                    </div>
-                                );
-                            })}
+                                {/* NAME */}
+                                <h3 className="font-semibold text-sm md:text-base text-primary">
+                                    {v.name}
+                                </h3>
+                            </div>
+                        );
+                    })}
 
-                        </div>
-                    </section>
-                </main>
-                );
+                </div>
+            </section>
+        </main>
+    );
 }
 
-                export default Home_3;
+export default Home_3;

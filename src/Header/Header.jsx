@@ -1,12 +1,19 @@
 import { Label } from '@headlessui/react';
 import React, { useContext, useState } from 'react';
-import logo_black from '../assets/images/logo-black.webp'
+// import logo_black from '../assets/images/logo-black.webp'
 import { FaRegMoon } from "react-icons/fa";
 import { RiMenu5Line } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
 import { ThemeContext } from '../context/theme.context';
-import logo_white from '../assets/images/logo-white.webp'
+// import logo_white from '../assets/images/logo-white.webp'
 import { LuSun } from "react-icons/lu";
+
+import logo_white from '../assets/images/darkModeLogo.png'
+import logo_black from '../assets/images/lightModeLogo.png'
+
+import logo from '../assets/images/cover.png'
+import blackLogo from '../assets/images/default-monochrome-black.svg'
+
 function Header(props) {
 
     const [menu,setMenu]=useState(false)
@@ -31,7 +38,7 @@ function Header(props) {
                 <div className="flex space-x-10 items-center">
                     {/* image */}
                     <a href="#">
-                        <img src={bgTheme.theme==='light'?logo_black:logo_white} alt="" className='w-32' />
+                        <img src={ bgTheme.theme==='light'?blackLogo:logo} alt="" className={`${bgTheme.theme==='light' ?'w-25':'w-38'}`} />
                     </a>
                     {/* navBar */}
                     <nav>

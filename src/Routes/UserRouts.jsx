@@ -13,7 +13,7 @@ function UserRouts(props) {
       console.log(themeData);
 
     return (
-        <div className={`${themeData.theme} dark:bg-black  bg-primary text-black  dark:text-primary  font-Lato`}>
+        <div className={`${themeData.theme} dark:bg-black  bg-primary  text-black  dark:text-primary  font-Lato`}>
             <Header />
             <Routes>
                 <Route path='/' element={<Home_3/>} ></Route>
