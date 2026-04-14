@@ -23,10 +23,10 @@ function Header(props) {
     
 
     const MenuItems = [
-        { link: '#', Label: 'Home' },
+        { link: '/', Label: 'Home' },
         { link: '#', Label: 'About' },
         { link: '#', Label: 'Pages' },
-        { link: '#', Label: 'Blog' },
+        { link: '/blog', Label: 'Blog' },
         { link: '#', Label: 'Contact ' }
     ]
 
@@ -38,7 +38,7 @@ function Header(props) {
                 <div className="flex space-x-10 items-center">
                     {/* image */}
                     <a href="#">
-                        <img src={ bgTheme.theme==='light'?blackLogo:logo} alt="" className={`${bgTheme.theme==='light' ?'w-25':'w-38'}`} />
+                        <img src={ bgTheme.theme==='light'?blackLogo:logo} alt="" className={`${bgTheme.theme==='light' ?'w-25':'w-25'}`} />
                     </a>
                     {/* navBar */}
                     <nav>
