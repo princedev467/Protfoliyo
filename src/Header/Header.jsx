@@ -13,6 +13,7 @@ import logo_black from '../assets/images/lightModeLogo.png'
 
 import logo from '../assets/images/cover.png'
 import blackLogo from '../assets/images/default-monochrome-black.svg'
+import { NavLink } from 'react-router-dom';
 
 function Header(props) {
 
@@ -71,7 +72,7 @@ function Header(props) {
                     <nav>
                         <ul className=' text-lg  my-5 dark:text-gary-900'>{
                             MenuItems.map((v) => (
-                                <li><a href={v.link}>{v.Label}</a></li>
+                                <li><NavLink to={v.link}>{v.Label}</NavLink></li>
                             ))
                         }</ul>
                     </nav>
