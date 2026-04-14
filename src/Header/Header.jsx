@@ -61,7 +61,7 @@ function Header() {
                                     <NavLink
                                         to={v.link}
                                         className={({ isActive }) =>
-                                            `relative pb-1 transition-colors duration-200 hover:text-primary ${isActive ? 'text-primary' : ''
+                                            `relative pb-1 transition-colors duration-200 hover:text-primary ${isActive ? 'text-primary' : 'text-gray'
                                             } after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 ${isActive ? 'after:w-full' : 'after:w-0 hover:after:w-full'
                                             }`
                                         }
@@ -78,7 +78,7 @@ function Header() {
                 <div className="flex items-center space-x-3 sm:space-x-4">
                     <button
                         aria-label="Toggle theme"
-                        className="text-xl sm:text-2xl hover:text-primary transition-colors duration-200"
+                        className="text-xl sm:text-2xl hover:text-primary  text-gray transition-colors duration-200"
                         onClick={() => bgTheme.ToggleTheme(bgTheme.theme)}
                     >
                         {bgTheme.theme === 'light' ? <FaRegMoon /> : <LuSun />}
@@ -93,7 +93,7 @@ function Header() {
 
                     <button
                         aria-label={menu ? 'Close menu' : 'Open menu'}
-                        className="lg:hidden text-2xl hover:text-primary transition-colors duration-200"
+                        className="lg:hidden text-2xl hover:text-primary transition-colors  text-gray duration-200"
                         onClick={() => setMenu(!menu)}
                     >
                         {menu ? <RxCross2 /> : <RiMenu5Line />}
@@ -115,7 +115,7 @@ function Header() {
                 className={`fixed top-0 right-0 h-full w-72 max-w-[85vw] z-50 p-6 flex flex-col shadow-2xl
                     transition-transform duration-300 ease-in-out
                     ${menu ? 'translate-x-0' : 'translate-x-full'}
-                    bg-white dark:bg-[#0b1215]
+                    bg-white dark:bg-[#0b1215] text-gray
                     border-l border-gray-200 dark:border-gray-800
                 `}
             >

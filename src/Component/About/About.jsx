@@ -25,9 +25,9 @@ function useReveal(cls = 'animate-fadeInUp') {
 const timelineItems = [
     {
         icon: <FaUserGraduate className="text-primary" />,
-        year: '2021 – 2024',
-        title: 'B.Sc Computer Science',
-        subtitle: 'Gujarat University',
+        year: '2022',
+        title: '12th Completed',
+        subtitle: 'Risen Modern School-Tapovan Group Of school.',
         desc: 'Studied core CS fundamentals — data structures, algorithms, databases, and software engineering.',
     },
     {
@@ -129,12 +129,12 @@ function About() {
                                           text-sm font-medium hover:border-primary hover:text-primary transition-all duration-200 hover:-translate-y-0.5">
                                 <IoLogoGithub className="text-lg" /> GitHub
                             </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer"
+                            <a href="https://linkedin.com/in/prince-movaliya-7246242b3" target="_blank" rel="noopener noreferrer"
                                className="flex items-center gap-2 px-4 py-2 rounded-full border border-gray-300 dark:border-gray-600
                                           text-sm font-medium hover:border-blue-500 hover:text-blue-500 transition-all duration-200 hover:-translate-y-0.5">
                                 <FaLinkedin className="text-lg text-blue-500" /> LinkedIn
                             </a>
-                            <a href="mailto:prince@example.com"
+                            <a href="mailto:princemovaliya467@example.com"
                                className="flex items-center gap-2 px-4 py-2 rounded-full border border-gray-300 dark:border-gray-600
                                           text-sm font-medium hover:border-yellow-500 hover:text-yellow-500 transition-all duration-200 hover:-translate-y-0.5">
                                 <CgMail className="text-lg text-yellow-500" /> Email

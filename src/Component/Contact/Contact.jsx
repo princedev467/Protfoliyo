@@ -31,8 +31,8 @@ const contactInfo = [
     {
         icon: <FaPhoneAlt className="text-xl text-primary" />,
         label: 'Phone',
-        value: '+91 99999 00000',
-        href: 'tel:+919999900000',
+        value: '+91 82381 97995',
+        href: 'tel:+918238197995',
     },
     {
         icon: <FaMapMarkerAlt className="text-2xl text-primary" />,
@@ -52,7 +52,7 @@ const socialLinks = [
     {
         icon: <FaLinkedin className="text-xl text-blue-500" />,
         label: 'LinkedIn',
-        href: '#',
+        href: 'https://linkedin.com/in/prince-movaliya-7246242b3',
         color: 'hover:border-blue-500 hover:text-blue-400',
     },
     {

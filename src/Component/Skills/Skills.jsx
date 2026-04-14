@@ -29,7 +29,7 @@ const skillCategories = [
             { name: 'JavaScript',   icon: <SiJavascript  className="size-10 text-yellow-400 bg-black p-0.5" />, level: 95 },
             { name: 'Tailwind CSS', icon: <SiTailwindcss className="size-10 text-sky-400" />,   level: 90 },
             { name: 'HTML5',        icon: <TiHtml5       className="size-10 text-orange-500" />, level: 95 },
-            { name: 'CSS3',         icon: <FaCss3Alt     className="size-10 text-blue-500" />,  level: 88 },
+            { name: 'CSS3',         icon: <FaCss3Alt     className="size-10 text-blue-500" />,  level: 97 },
         ],
     },
     {
@@ -49,8 +49,8 @@ const skillCategories = [
             { name: 'Git & GitHub', icon: <FaGitAlt   className="size-10 text-orange-500" />, level: 90 },
             { name: 'Figma',        icon: <SiFigma    className="size-10 text-pink-500" />,   level: 68 },
             { name: 'Vite',         icon: <SiVite     className="size-10 text-purple-500" />, level: 82 },
-            { name: 'Postman',      icon: <SiPostman  className="size-10 text-orange-400" />, level: 78 },
-            { name: 'C',            icon: <SiC        className="size-10 text-blue-600" />,   level: 65 },
+            { name: 'Postman',      icon: <SiPostman  className="size-10 text-orange-400" />, level: 95 },
+            { name: 'C',            icon: <SiC        className="size-10 text-blue-600" />,   level: 80 },
         ],
     },
 ];
