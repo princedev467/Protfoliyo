@@ -159,71 +159,167 @@
 
 
 
-@keyframes round {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
+/* ─── GLOBAL ─────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
 }
 
+/* ─── ROTATION ───────────────────────────────────── */
+@keyframes round {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
 .animation_info {
-
     animation: round linear 10s infinite;
 }
 
+/* ─── MOVELINE ───────────────────────────────────── */
 @keyframes moveline {
-    from {
-        transform: translateX(-100%);
-    }
-
-    to {
-        transform: translatex(100%);
-    }
+    from { transform: translateX(-100%); }
+    to   { transform: translateX(100%); }
 }
-
 .profile_animation {
     animation: moveline linear 10s infinite;
 }
-/* FLOAT ANIMATION */
+
+/* ─── FLOAT ──────────────────────────────────────── */
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
+  50%       { transform: translateY(-12px); }
 }
-
 .float {
-  animation: float 3s ease-in-out infinite;
+  animation: float 3.5s ease-in-out infinite;
 }
 
-/* GLOW EFFECT */
+/* ─── GLOW ───────────────────────────────────────── */
 .glow {
-  box-shadow: 0 0 20px rgba(74, 222, 128, 0.4);
+  box-shadow: 0 0 24px rgba(20, 184, 166, 0.45);
 }
 
-/* PULSE RING */
+/* ─── PULSE RING ─────────────────────────────────── */
 @keyframes pulseRing {
-  0% {
-    transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.5);
-  }
-  70% {
-    transform: scale(1);
-    box-shadow: 0 0 0 20px rgba(74, 222, 128, 0);
-  }
-  100% {
-    transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(74, 222, 128, 0);
-  }
+  0%   { transform: scale(0.95); box-shadow: 0 0 0 0   rgba(20, 184, 166, 0.55); }
+  70%  { transform: scale(1);    box-shadow: 0 0 0 16px rgba(20, 184, 166, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0   rgba(20, 184, 166, 0); }
 }
-
 .pulse-ring {
   animation: pulseRing 2.5s infinite;
 }
 
-/* TAG STYLE */
+/* ─── TAG / PILL ─────────────────────────────────── */
 .tag-pill {
   background: rgba(255,255,255,0.05);
   border: 1px solid;
+}
+
+/* ══════════════════════════════════════════════════
+   SCROLL-ENTRANCE ANIMATIONS
+   ══════════════════════════════════════════════════ */
+
+/* FADE IN UP */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(36px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fadeInUp {
+  animation: fadeInUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* SLIDE IN LEFT */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-48px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.animate-slideInLeft {
+  animation: slideInLeft 0.75s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* SLIDE IN RIGHT */
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(48px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.animate-slideInRight {
+  animation: slideInRight 0.75s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* FADE IN (simple opacity only) */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease both;
+}
+
+/* SCALE IN */
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.88); }
+  to   { opacity: 1; transform: scale(1); }
+}
+.animate-scaleIn {
+  animation: scaleIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* ─── DELAY HELPERS ──────────────────────────────── */
+.delay-100  { animation-delay: 100ms;  }
+.delay-150  { animation-delay: 150ms;  }
+.delay-200  { animation-delay: 200ms;  }
+.delay-300  { animation-delay: 300ms;  }
+.delay-400  { animation-delay: 400ms;  }
+.delay-500  { animation-delay: 500ms;  }
+.delay-600  { animation-delay: 600ms;  }
+.delay-700  { animation-delay: 700ms;  }
+.delay-800  { animation-delay: 800ms;  }
+
+/* ─── HIDDEN (before JS adds animate class) ──────── */
+.scroll-hidden {
+  opacity: 0;
+}
+
+/* ─── CARD HOVER LIFT ─────────────────────────────── */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* ─── MOBILE MENU BACKDROP ───────────────────────── */
+.menu-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  backdrop-filter: blur(2px);
+  z-index: 40;
+}
+
+/* ─── HEADER GLASS ───────────────────────────────── */
+.header-glass {
+  backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.75);
+  box-shadow: 0 1px 24px rgba(0,0,0,0.08);
+}
+.dark .header-glass {
+  background: rgba(11,18,21,0.82);
+  box-shadow: 0 1px 24px rgba(0,0,0,0.4);
 }
