@@ -5,9 +5,8 @@ import { MdRssFeed } from "react-icons/md";
 
 const socialLinks = [
     { label: "GitHub",   href: "https://github.com/princedev467", icon: <IoLogoGithub className="w-4 h-4" /> },
-    { label: "LinkedIn", href: "#",                                icon: <FaLinkedin   className="w-4 h-4" /> },
-    { label: "Twitter",  href: "#",                                icon: <FaTwitter    className="w-4 h-4" /> },
-    { label: "RSS",      href: "#",                                icon: <MdRssFeed    className="w-4 h-4" /> },
+    { label: "LinkedIn", href: "https://linkedin.com/in/prince-movaliya-7246242b3",icon: <FaLinkedin   className="w-4 h-4" /> },
+     { label: "RSS",      href: "#",icon: <MdRssFeed    className="w-4 h-4" /> },
 ];
 
 function Footer() {
