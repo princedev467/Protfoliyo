@@ -72,8 +72,8 @@ function Home_3() {
             desc: "A Budget App designed to help users manage their finances effectively by tracking income, expenses, and savings in an organized way.",
             tech: ["HTML", "CSS", "Javascript"],
             color: "#0EA5E9",
-            link: "#",
-            live: "#",
+            link: "https://github.com/princedev467/Budget-App",
+            live: " https://princedev467.github.io/Budget-App/",
         },
         {
             title: "ELEVELT KNOWLEDGE",
@@ -81,8 +81,8 @@ function Home_3() {
             desc: "A Learning Management System (LMS) to create, manage, deliver, and track educational content and training programs in a digital environment.",
             tech: ["React", "Node.js", "MongoDB", "Express.js"],
             color: "#8B5CF6",
-            link: "#",
-            live: "#",
+            link: "https://github.com/princedev467/ELEVELT_KNOWLWDGE_Frontend",
+            live: "https://elevelt-knowlwdge-frontend.vercel.app/",
         },
         {
             title: "PulseAPI",
