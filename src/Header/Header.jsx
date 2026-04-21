@@ -111,14 +111,22 @@ function Header() {
             )}
 
             {/* Mobile Drawer */}
-            <div
+            {/* <div
                 className={`fixed top-0 right-0 h-full w-72 max-w-[85vw] z-50 p-6 flex flex-col shadow-2xl
                     transition-transform duration-300 ease-in-out
                     ${menu ? 'translate-x-0' : 'translate-x-full'}
                     bg-white dark:bg-[#0b1215] text-gray
                     border-l border-gray-200 dark:border-gray-800
                 `}
-            >
+            > */}
+            <div
+  className={`fixed top-0 right-0 h-full w-72 max-w-[85vw] z-50 p-6 flex flex-col shadow-2xl
+    transform transition-transform duration-300 ease-in-out
+    ${menu ? 'translate-x-0' : 'translate-x-full'}
+    bg-white dark:bg-[#0b1215] text-gray
+    border-l border-gray-200 dark:border-gray-800
+  `}
+>
                 {/* Drawer header */}
                 <div className="flex justify-between items-center mb-8">
                     <img
