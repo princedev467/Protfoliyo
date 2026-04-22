@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Profile from '../../assets/images/profile/personalPhoto.png';
 import { IoLogoGithub } from "react-icons/io5";
-import { FaLinkedin, FaCode, FaUserGraduate, FaBriefcase } from "react-icons/fa";
+import { FaLinkedin, FaCode, FaUserGraduate, FaBriefcase,FaRocket  } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 import { HiDownload } from "react-icons/hi";
 import cv from '../../assets/images/profile/cv.pdf';
@@ -38,7 +38,7 @@ const timelineItems = [
         desc: 'I began my journey as a self-taught developer, diving deep into the MERN stack (MongoDB, Express.js, React.js, Node.js). Through online learning and hands-on projects, I developed practical skills in building modern, responsive, and scalable web applications',
     },
     {
-        icon: <FaBriefcase className="text-primary" />,
+        icon: <FaRocket  className="text-primary" />,
         year: '2025 – Present',
         title: 'Real-World Projects & Deployment',
         subtitle: 'Building & Launching Applications',
