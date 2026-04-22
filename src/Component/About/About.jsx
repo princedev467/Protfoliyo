@@ -26,23 +26,23 @@ const timelineItems = [
     {
         icon: <FaUserGraduate className="text-primary" />,
         year: '2022',
-        title: '12th Completed',
-        subtitle: 'Risen Modern School-Tapovan Group Of school.',
-        desc: 'Studied core CS fundamentals — data structures, algorithms, databases, and software engineering.',
+        title: 'Completed Higher Secondary Education',
+        subtitle: 'Risen Modern School-Tapovan Group of Schools.',
+        desc: 'I completed my 12th grade from Risen Modern School – Tapovan Group of Schools with a commerce background. Although my academic stream was not technical, I developed strong analytical and problem-solving skills. My growing interest in technology inspired me to explore web development and begin my journey as a self-taught developer.',
     },
     {
         icon: <FaCode className="text-primary" />,
         year: '2023',
-        title: 'Started Full Stack Development',
-        subtitle: 'Self-taught',
-        desc: 'Learned the MERN stack (MongoDB, Express, React, Node.js) through online courses and real projects.',
+        title: 'Started Full Stack Development (Self-Taught)',
+        subtitle: 'MERN Stack Journey',
+        desc: 'I began my journey as a self-taught developer, diving deep into the MERN stack (MongoDB, Express.js, React.js, Node.js). Through online learning and hands-on projects, I developed practical skills in building modern, responsive, and scalable web applications',
     },
     {
         icon: <FaBriefcase className="text-primary" />,
-        year: '2024 – Present',
-        title: 'Freelance Developer',
-        subtitle: 'Remote',
-        desc: 'Building modern web apps for clients, from landing pages to full-stack SaaS products.',
+        year: '2025 – Present',
+        title: 'Real-World Projects & Deployment',
+        subtitle: 'Building & Launching Applications',
+        desc: 'Built and deployed multiple projects including a Learning Management System, Movie Booking App, and a Travel Website. Focused on real-world problem solving, UI/UX, and performance optimization.',
     },
 ];
 
