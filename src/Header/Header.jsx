@@ -31,7 +31,7 @@ function Header() {
         { link: '/', label: 'Home' },
         { link: '/about', label: 'About' },
         { link: '/skills', label: 'Skills' },
-        { link: '/blog', label: 'Blog' },
+        // { link: '/blog', label: 'Blog' },
         { link: '/contact', label: 'Contact' },
     ];
 

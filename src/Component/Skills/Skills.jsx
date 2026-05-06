@@ -25,7 +25,7 @@ const skillCategories = [
         category: 'Frontend',
         color: '#38BDF8',
         skills: [
-            { name: 'React JS',     icon: <FaReact       className="size-10 text-cyan-400" />,  level: 90 },
+            { name: 'React JS',     icon: <FaReact       className="size-10 text-cyan-400" />,  level: 80 },
             { name: 'JavaScript',   icon: <SiJavascript  className="size-10 text-yellow-400 bg-black p-0.5" />, level: 95 },
             { name: 'Tailwind CSS', icon: <SiTailwindcss className="size-10 text-sky-400" />,   level: 90 },
             { name: 'HTML5',        icon: <TiHtml5       className="size-10 text-orange-500" />, level: 95 },
@@ -37,16 +37,16 @@ const skillCategories = [
         color: '#4ADE80',
         skills: [
             { name: 'Node JS',      icon: <FaNodeJs   className="size-10 text-green-500" />,  level: 75 },
-            { name: 'Express JS',   icon: <SiExpress  className="size-10 text-gray-400" />,   level: 70 },
+            { name: 'Express JS',   icon: <SiExpress  className="size-10 text-gray-400" />,   level: 80 },
             { name: 'MongoDB',      icon: <SiMongodb  className="size-10 text-green-600" />,  level: 72 },
-            { name: 'REST API',     icon: <TbApi      className="size-10 text-purple-400" />, level: 85 },
+            { name: 'REST API',     icon: <TbApi      className="size-10 text-purple-400" />, level: 90 },
         ],
     },
     {
         category: 'Tools',
         color: '#F59E0B',
         skills: [
-            { name: 'Git & GitHub', icon: <FaGitAlt   className="size-10 text-orange-500" />, level: 90 },
+            { name: 'Git & GitHub', icon: <FaGitAlt   className="size-10 text-orange-500" />, level: 80 },
             { name: 'Figma',        icon: <SiFigma    className="size-10 text-pink-500" />,   level: 68 },
             { name: 'Vite',         icon: <SiVite     className="size-10 text-purple-500" />, level: 82 },
             { name: 'Postman',      icon: <SiPostman  className="size-10 text-orange-400" />, level: 95 },

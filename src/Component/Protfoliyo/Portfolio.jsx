@@ -60,16 +60,16 @@ const PROJECTS = [
     link: "#",
     live: "#",
   },
-  {
-    title: "Lexis AI",
-    tag: "AI / NLP App",
-    desc: "Legal document analyzer using LLMs to extract clauses, flag risks, and summarize contracts. Reduces review time by 70% for law firms.",
-    tech: ["Python", "OpenAI", "LangChain", "FastAPI", "Next.js"],
-    color: "#F59E0B",
-    accent: "#FDE68A",
-    link: "#",
-    live: "#",
-  },
+  // {
+  //   title: "Lexis AI",
+  //   tag: "AI / NLP App",
+  //   desc: "Legal document analyzer using LLMs to extract clauses, flag risks, and summarize contracts. Reduces review time by 70% for law firms.",
+  //   tech: ["Python", "OpenAI", "LangChain", "FastAPI", "Next.js"],
+  //   color: "#F59E0B",
+  //   accent: "#FDE68A",
+  //   link: "#",
+  //   live: "#",
+  // },
 ];
 
 const EXPERIENCE = [
