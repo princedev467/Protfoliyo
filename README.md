@@ -1,16 +1,176 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and fully responsive **Personal Portfolio Website** built using **React.js** and **Tailwind CSS** to showcase my skills, projects, education, and development journey as a Full Stack Developer.
 
-Currently, two official plugins are available:
+Designed with clean UI, smooth animations, reusable components, and an optimized user experience across all devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![GitHub stars](https://img.shields.io/github/stars/princedev467/Protfoliyo?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/princedev467/Protfoliyo?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/princedev467/Protfoliyo?style=for-the-badge)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 Add your live portfolio link here
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Example:
+
+```bash
+https://protfoliyo-flame.vercel.app
+```
+
+---
+
+# ✨ Features
+
+✅ Modern Responsive UI
+✅ Built with React Components
+✅ Tailwind CSS Styling
+✅ About Me Section
+✅ Skills Showcase
+✅ Projects Section
+✅ Journey Timeline
+✅ Contact Form UI
+✅ Smooth Animations
+✅ Mobile Friendly Design
+✅ Fast & Optimized Performance
+
+---
+
+
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+* React.js
+* Tailwind CSS
+* JavaScript (ES6+)
+
+## Libraries & Tools
+
+* React Router DOM
+* React Icons
+* AOS Animation Library
+* Vite
+
+---
+
+# 📂 Folder Structure
+
+```bash
+Protfoliyo/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── layouts/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── tailwind.config.js
+└── README.md
+```
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/princedev467/Protfoliyo.git
+```
+
+## 2️⃣ Navigate to Project Folder
+
+```bash
+cd Protfoliyo
+```
+
+## 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+## 4️⃣ Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+# 📌 Portfolio Sections
+
+```text
+Home
+About
+Skills
+Projects
+Journey Timeline
+Contact
+Footer
+```
+
+---
+
+# 🎯 Future Improvements
+
+* Add backend integration for Contact Form responses
+* Store contact messages in database
+* Add admin dashboard for managing responses
+* Dark mode support
+* Add blog section
+* Improve animations & UI interactions
+* Add downloadable resume option
+* SEO optimization
+* Performance improvements
+
+---
+
+# 👨‍💻 Author
+
+## Prince Movaliya
+
+💼 Full Stack Developer
+🚀 Passionate about MERN Stack Development
+
+### Connect With Me
+
+* GitHub: [https://github.com/princedev467](https://github.com/princedev467)
+* LinkedIn: Add Your LinkedIn Profile
+* Portfolio: protfoliyo-flame.vercel.app
+
+---
+
+# ⭐ Support
+
+If you like this project:
+
+⭐ Star this repository
+🍴 Fork the project
+🛠️ Contribute to improvements
+
+---
+
+# 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+<div align="center">
+
+### 🚀 Building Modern & Creative Web Experiences
+
+Made with ❤️ by Prince Movaliya
+
+</div>
