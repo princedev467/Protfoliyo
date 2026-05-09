@@ -12,10 +12,6 @@ Designed with clean UI, smooth animations, reusable components, and an optimized
 
 # 🚀 Live Demo
 
-🔗 Add your live portfolio link here
-
-Example:
-
 ```bash
 https://protfoliyo-flame.vercel.app
 ```
