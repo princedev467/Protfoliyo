@@ -146,8 +146,8 @@ Footer
 ### Connect With Me
 
 * GitHub: [https://github.com/princedev467](https://github.com/princedev467)
-* LinkedIn: Add Your LinkedIn Profile
-* Portfolio: protfoliyo-flame.vercel.app
+* LinkedIn:[ Add Your LinkedIn Profile](https://www.linkedin.com/in/prince-movaliya-7246242b3/?isSelfProfile=false)
+* Portfolio:[ protfoliyo-flame.vercel.app](https://protfoliyo-flame.vercel.app/)
 
 ---
 
